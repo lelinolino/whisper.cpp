@@ -47,10 +47,10 @@ let package = Package(
             publicHeadersPath: "spm-headers",
             cSettings: [
                 .unsafeFlags(["-Wno-shorten-64-to-32", "-O3", "-DNDEBUG"]),
-                .define("WHISPER_COREML"),
-                .define("WHISPER_COREML_ALLOW_FALLBACK"),
+                //.define("WHISPER_COREML"),
+                //.define("WHISPER_COREML_ALLOW_FALLBACK"),
                 .define("GGML_USE_ACCELERATE"),
-                .define("WHISPER_USE_COREML"),
+                //.define("WHISPER_USE_COREML"),
                 .unsafeFlags(["-fno-objc-arc"]),
                 .define("GGML_USE_METAL"),
                 // NOTE: NEW_LAPACK will required iOS version 16.4+
