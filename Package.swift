@@ -35,7 +35,7 @@ let package = Package(
                 "src/coreml/whisper-encoder-impl.h",
                 "src/coreml/whisper-encoder-impl.m",
                 "src/coreml/whisper-encoder.h",
-                "src/coreml/whisper-encoder.mm",
+                //"src/coreml/whisper-encoder.mm",
                 "ggml/src/ggml.c",
                 "src/whisper.cpp",
                 "ggml/src/ggml-alloc.c",
