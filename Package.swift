@@ -20,7 +20,7 @@ let package = Package(
             exclude: [
                "bindings",
                "cmake",
-               //"coreml",
+               "coreml",
                "examples",
                "extra",
                "models",
@@ -30,11 +30,11 @@ let package = Package(
                "Makefile"
             ],
             sources: [
-                "src/coreml/whisper-decoder-impl.h",
-                "src/coreml/whisper-decoder-impl.m",
-                "src/coreml/whisper-encoder-impl.h",
-                "src/coreml/whisper-encoder-impl.m",
-                "src/coreml/whisper-encoder.h",
+                //"src/coreml/whisper-decoder-impl.h",
+                //"src/coreml/whisper-decoder-impl.m",
+                //"src/coreml/whisper-encoder-impl.h",
+                //"src/coreml/whisper-encoder-impl.m",
+                //"src/coreml/whisper-encoder.h",
                 //"src/coreml/whisper-encoder.mm",
                 "ggml/src/ggml.c",
                 "src/whisper.cpp",
