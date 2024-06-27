@@ -51,7 +51,7 @@ let package = Package(
                 .define("WHISPER_COREML_ALLOW_FALLBACK"),
                 .define("GGML_USE_ACCELERATE"),
                 .define("WHISPER_USE_COREML"),
-                .unsafeFlags(["-fno-objc-arc"]),
+                .unsafeFlags(["-fobjc-arc"]),
                 .define("GGML_USE_METAL")
                 // NOTE: NEW_LAPACK will required iOS version 16.4+
                 // We should consider add this in the future when we drop support for iOS 14
