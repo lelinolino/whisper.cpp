@@ -42,7 +42,7 @@ let package = Package(
             cSettings: [
                 .unsafeFlags(["-Wno-shorten-64-to-32", "-O3", "-DNDEBUG"]),
                 .define("GGML_USE_ACCELERATE"),
-                .define("WHISPER_COREML", to: "1"),
+                .define("WHISPER_COREML"),
                 .unsafeFlags(["-fno-objc-arc"]),
                 .define("GGML_USE_METAL"),
                 .define("WHISPER_USE_COREML"),
